@@ -1,0 +1,167 @@
+/* Global -------------------------------------------------*/
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosanskr/v13/PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.0.woff2)
+    format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "AppleSDGothicNeoB";
+  font-size: 1.2rem;
+  font-weight: 600;
+  color : white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding-bottom: 0px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:column;
+  width:650px;
+  height : 100vh;
+  background-color: black;
+}
+
+
+/* 헤더 부분 */
+.header{
+  width:100%;
+  margin-top: 10px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__i{
+  position: absolute;
+  left : 15px;
+  font-size: 1.3rem;
+}
+
+.header__postTxt{
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyImg{
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.userName {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.fa-ellipsis-h {
+ font-size: 20px;
+ margin-right: 20px;
+}
+
+.bodyHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.idnetify {
+  display: flex;
+  align-items:flex-start;
+  padding: 15px;
+}
+
+.feedImg{
+  width: 650px;
+  height: 700px;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* height: 50px; */
+  float: left;
+  width: 55vh;
+  margin-top: 15px;
+  padding: 10px;
+  padding-top: 0px;  
+}
+
+.leftImg{
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; */
+  left: 10px;
+  font-size: 3vh;
+}
+
+.fa-bookmark{
+  font-size: 3vh;
+}
+
+.leg {
+  height: 150px;
+  width: 55vh;
+}
+
+.likeNum {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+  padding-top: 6px;
+  border-top: 1px solid rgb(var(--post-separator));
+  margin: 0;
+  order: 3;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: space-between;
+  font-size: 40px;
+  width: 55vh;
+
+
+  /* display: flex;
+  flex-direction: rows;
+  font-size: 40px;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 50px; */
+}
+
+.footerImg {
+  width: 1.0em;
+  height: 1.0em;
+  border-radius: 50%;
+}
+
+
